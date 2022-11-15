@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class StringSentence4 {
+public class StringUsingHashMap {
 	public static void main(String[] args) {
 		String s = "testyantra";
 		char[] ch=s.toCharArray();
@@ -30,6 +30,20 @@ public class StringSentence4 {
 		
 		while(iterator.hasNext()) {
 			System.out.println(iterator.next());
+		}
+		System.out.println("After printing the entries");
+		
+		Set<Character> keysSet = hashMap.keySet();
+		Iterator<Character> iterator1 = keysSet.iterator();
+		
+		while(iterator1.hasNext()) {
+			Character key=iterator1.next();
+			for(int i=0;i<ch.length;i++) {
+				if(key.equals(ch[i])) {
+				System.out.println(key+ " "+i);
+				break;
+				}
+			}
 		}
 		
 		

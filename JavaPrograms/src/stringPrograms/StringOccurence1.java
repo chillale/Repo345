@@ -11,7 +11,7 @@ public class StringOccurence1 {
 					count++;
 				}
 			}
-			if(count>0) {
+			if(count==1) {
 				System.out.println(c+" "+count);
 			}
 		}
