@@ -8,6 +8,7 @@ public class StackCollection {
 		s.add('s');
 		s.push('e');
 		s.add('w');
+		s.add("sravan");//it will allow duplicates
 		s.add(1, 'i');
 		System.out.println(s);
 		System.out.println(s.pop());

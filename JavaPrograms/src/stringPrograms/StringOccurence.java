@@ -15,7 +15,7 @@ public static void main(String[] args) {
 				break;
 			}
 		}
-		System.out.println(ch[i]+ " "+count);
+		System.out.print(ch[i]+ " "+count);
 	}
 }
 

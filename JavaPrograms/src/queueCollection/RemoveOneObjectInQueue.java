@@ -12,6 +12,7 @@ public class RemoveOneObjectInQueue {
 		q.add(86);
 		System.out.println(q);
 		System.out.println(q.poll());
+		System.out.println(q.poll());
 		System.out.println(q);
 		//peek method is used to know which element is goint to delete in the collection
 		System.out.println(q.peek());

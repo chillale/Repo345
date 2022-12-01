@@ -7,7 +7,7 @@ public class MinimumCount {
 		String str1="";
 		int maxCount=0;
 		for(int i=0;i<str.length;i++) {
-			if(str[i].length()<maxCount) {
+			if(str[i].length()>maxCount) {
 				maxCount = str[i].length();
 				str1 = str[i];
 			}

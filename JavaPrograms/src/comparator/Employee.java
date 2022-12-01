@@ -26,10 +26,7 @@ public class Employee implements Comparable{
 	}
 	
 	
-	@Override
-	public String toString() {
-		return "playerName=" + playerName + ", age=" + age + ", salary=" + salary;
-	}
+	
 	public static void main(String[] args) {
 		Employee employee = new Employee("Hardik", 32, 20000);
 		Employee employee1 = new Employee("Virak", 34, 30000);
