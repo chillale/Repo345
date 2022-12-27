@@ -22,14 +22,7 @@ public class SwappingCharacters  {
 			}
 		}
 		System.out.println(Arrays.toString(ch));
-		
-		
-		
-		
-      }
-		
-		    
-		
 	
+      }
 
 }
