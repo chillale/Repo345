@@ -1,7 +1,11 @@
 package pavanSir;
 
+import java.util.HashMap;
+
 public class Tricky {
 	public static void main(String[] args) {
+		
+		
 		int a[] = {5,4,3,8,4,6,5 };
 		Tricky t = new Tricky();
 		System.out.println(t.m1(a));
